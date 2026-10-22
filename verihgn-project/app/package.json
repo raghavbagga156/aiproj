@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "build:vercel": "npm run build && node scripts/stage-bundle.mjs",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },

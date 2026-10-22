@@ -116,12 +116,18 @@ app/
   qa/m1/ … qa/m3/   screenshots (+ e2e_results.json, map_timings.json)
 ```
 
+## 4b. Hosted (static) deployment
+
+The same build can be hosted as a static site (Vercel): `npm run build:vercel` verifies the pinned export in
+`app/deploy/` and stages it under `dist/data/`. See `docs/DEPLOY_VERCEL.md`.
+
 ## 5. Troubleshooting
 
 | Symptom | Cause / fix |
 |---|---|
 | "The results bundle could not be verified" | a bundle file differs from its manifest. The launcher window lists the files. Re-download the export. |
 | "Integrity failure: results are withheld" | the launcher, the manifest or the integrity report records a failure. Open *Provenance and integrity*. |
+| Hosted site: "./data/manifest.json: HTTP 404" | the deployment was built without the data: use `npm run build:vercel` (see `docs/DEPLOY_VERCEL.md`). |
 | The page is empty in the browser | open it through the launcher (`http://127.0.0.1:…`), not as a file. Web Crypto and `fetch` need the local server. |
 | Port in use | the launcher tries the next 20 ports, or use `--port`. |
 | "cached extraction no longer matches the ZIP" | a file in `%LOCALAPPDATA%\VeriHGN-dashboard\bundles\` was changed. The launcher moves that folder aside (`*.modified_<time>`, not deleted) and extracts the ZIP again. |

@@ -1,0 +1,6 @@
+{
+  "note": "Pinned research export for static deployments. scripts/stage-bundle.mjs refuses any ZIP whose sha256 or size differs. This is the notebook-09 export of HEADPATH (notebook 08) + notebook-07 context, verified on 2026-10-22; it is a read-only copy of the file the export produced.",
+  "zip": "headpath_dashboard_20261022_110005.zip",
+  "sha256": "0e2b95ffbdc2ec6df3cea5ac9b4bd750af9308e0c091686ed7655a9037106969",
+  "bytes": 16675322
+}

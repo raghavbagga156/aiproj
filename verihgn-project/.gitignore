@@ -8,6 +8,8 @@ dist/
 # the dashboard's production build IS committed (viewing needs only Python), its dependencies are not
 !app/dist/
 app/node_modules/
+# bundle data staged into the build by `npm run build:vercel` (deployments only; the source is app/deploy/*.zip)
+app/dist/data/
 
 # data and large artifacts never live in the repo
 artifacts/*
