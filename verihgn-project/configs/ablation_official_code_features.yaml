@@ -1,0 +1,3 @@
+# Official-code grid feature set, minus H/V MacroMargin which CircuitNet does not provide.
+experiment:
+  grid_features: official_code_available

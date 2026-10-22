@@ -1,0 +1,7 @@
+{
+ "note": "SYNTHETIC test data produced by tools/make_dashboard_fixture.py on random synthetic designs. Not experimental results.",
+ "zip": "synthetic_bundle.zip",
+ "zip_sha256": "ca10d548c188955c00ab1666b27a81d88874907a89ae10519113a837f6593ccc",
+ "primary_p": 1.0,
+ "n_discordant": 1
+}

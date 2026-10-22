@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+# the dashboard's production build IS committed (viewing needs only Python), its dependencies are not
+!app/dist/
+app/node_modules/
+
+# data and large artifacts never live in the repo
+artifacts/*
+!artifacts/.gitkeep
+tests/fixtures/real/
+*.pt
+*.npz
+*.tar.gz
+
+# third_party keeps its own .git
+third_party/VeriHGN/checkpoints/
+third_party/VeriHGN/logs/
+
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

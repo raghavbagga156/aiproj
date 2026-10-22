@@ -1,0 +1,3 @@
+# Official-code label normalisation (per-sample max), reported alongside the paper's per-dataset c_max.
+experiment:
+  label_norm: per_sample

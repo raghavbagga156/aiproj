@@ -1,0 +1,105 @@
+/* Design tokens (docs/DASHBOARD_FRONTEND_PLAN.md section 3).
+   Arm colours validated with the dataviz palette validator against these surfaces
+   (light #fbfaf7, dark #1a1a19; all checks pass, worst CVD dE 24.7 / 26.8).
+   Colour carries meaning only for the two arms and for integrity status. */
+:root {
+  color-scheme: light;
+  --page: #f6f4ef;
+  --surface: #fbfaf7;
+  --surface-2: #f1eee7;
+  --scroll-shadow: rgba(0, 0, 0, .16);
+  --ink: #1d1c1a;
+  --ink-2: #55534e;
+  --ink-3: #6b6862;
+  --hairline: #e4e1d8;
+  --hairline-strong: #d3cfc4;
+  --focus: #1d1c1a;
+  --arm-O: #2a78d6;
+  --arm-U: #eb6834;
+  --status-good: #08710a;
+  --status-good-bg: #e6f2e3;
+  --status-warn: #8a5a00;
+  --status-warn-bg: #fbf0d6;
+  --status-crit: #b42f2f;
+  --status-crit-bg: #f8e3e1;
+  --status-info: #55534e;
+  --status-info-bg: #efece5;
+  --grid: #e9e6de;
+  --axis: #c9c5ba;
+
+  --font-ui: "Segoe UI Variable Text", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "Cascadia Code", Consolas, "SFMono-Regular", monospace;
+
+  --fs-title: 28px;
+  --fs-section: 20px;
+  --fs-card: 15px;
+  --fs-body: 14px;
+  --fs-small: 13px;
+  --fs-caption: 12px;
+
+  --r-card: 10px;
+  --r-control: 6px;
+  --sidebar-w: 248px;
+  --content-max: 1180px;
+  --gutter: 32px;
+}
+
+/* OS dark preference, unless the viewer stamped light */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #121211;
+    --surface: #1a1a19;
+    --surface-2: #222220;
+    --scroll-shadow: rgba(255, 255, 255, .22);
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --ink-3: #96938b;
+    --hairline: #2c2c2a;
+    --hairline-strong: #3a3a37;
+    --focus: #f0efec;
+    --arm-O: #3987e5;
+    --arm-U: #d95926;
+    --status-good: #4cc24c;
+    --status-good-bg: #18291a;
+    --status-warn: #f0b43c;
+    --status-warn-bg: #2d2615;
+    --status-crit: #ec7070;
+    --status-crit-bg: #321b1b;
+    --status-info: #c3c2b7;
+    --status-info-bg: #262624;
+    --grid: #2a2a28;
+    --axis: #45453f;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #121211;
+  --surface: #1a1a19;
+  --surface-2: #222220;
+  --scroll-shadow: rgba(255, 255, 255, .22);
+  --ink: #f0efec;
+  --ink-2: #c3c2b7;
+  --ink-3: #96938b;
+  --hairline: #2c2c2a;
+  --hairline-strong: #3a3a37;
+  --focus: #f0efec;
+  --arm-O: #3987e5;
+  --arm-U: #d95926;
+  --status-good: #4cc24c;
+  --status-good-bg: #18291a;
+  --status-warn: #f0b43c;
+  --status-warn-bg: #2d2615;
+  --status-crit: #ec7070;
+  --status-crit-bg: #321b1b;
+  --status-info: #c3c2b7;
+  --status-info-bg: #262624;
+  --grid: #2a2a28;
+  --axis: #45453f;
+}
+
+@media (max-width: 767px) {
+  :root { --gutter: 16px; --fs-title: 24px; }
+}

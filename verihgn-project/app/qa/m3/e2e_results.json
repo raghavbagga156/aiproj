@@ -1,0 +1,428 @@
+{
+ "url": "http://127.0.0.1:8765",
+ "when": "2026-10-22T13:08:54.429Z",
+ "passed": 84,
+ "failed": 0,
+ "results": [
+  {
+   "name": "overview · desktop · light: renders",
+   "ok": true,
+   "detail": "2 charts, 530 ms"
+  },
+  {
+   "name": "arms · desktop · light: renders",
+   "ok": true,
+   "detail": "4 charts, 33 ms"
+  },
+  {
+   "name": "seeds · desktop · light: renders",
+   "ok": true,
+   "detail": "4 charts, 2 ms"
+  },
+  {
+   "name": "training · desktop · light: renders",
+   "ok": true,
+   "detail": "6 charts, 85 ms"
+  },
+  {
+   "name": "validation · desktop · light: renders",
+   "ok": true,
+   "detail": "5 charts, 80 ms"
+  },
+  {
+   "name": "metrics · desktop · light: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "designs · desktop · light: renders",
+   "ok": true,
+   "detail": "1 charts, 6 ms"
+  },
+  {
+   "name": "maps · desktop · light: renders",
+   "ok": true,
+   "detail": "9 charts, 492 ms"
+  },
+  {
+   "name": "collapse · desktop · light: renders",
+   "ok": true,
+   "detail": "6 charts, 85 ms"
+  },
+  {
+   "name": "statistics · desktop · light: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "methods · desktop · light: renders",
+   "ok": true,
+   "detail": "0 charts, 1 ms"
+  },
+  {
+   "name": "provenance · desktop · light: renders",
+   "ok": true,
+   "detail": "0 charts, 1 ms"
+  },
+  {
+   "name": "overview · desktop · dark: renders",
+   "ok": true,
+   "detail": "2 charts, 2 ms"
+  },
+  {
+   "name": "arms · desktop · dark: renders",
+   "ok": true,
+   "detail": "4 charts, 1 ms"
+  },
+  {
+   "name": "seeds · desktop · dark: renders",
+   "ok": true,
+   "detail": "4 charts, 2 ms"
+  },
+  {
+   "name": "training · desktop · dark: renders",
+   "ok": true,
+   "detail": "6 charts, 46 ms"
+  },
+  {
+   "name": "validation · desktop · dark: renders",
+   "ok": true,
+   "detail": "5 charts, 11 ms"
+  },
+  {
+   "name": "metrics · desktop · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "designs · desktop · dark: renders",
+   "ok": true,
+   "detail": "1 charts, 1 ms"
+  },
+  {
+   "name": "maps · desktop · dark: renders",
+   "ok": true,
+   "detail": "9 charts, 356 ms"
+  },
+  {
+   "name": "collapse · desktop · dark: renders",
+   "ok": true,
+   "detail": "6 charts, 42 ms"
+  },
+  {
+   "name": "statistics · desktop · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "methods · desktop · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "provenance · desktop · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 1 ms"
+  },
+  {
+   "name": "overview · mobile390 · light: renders",
+   "ok": true,
+   "detail": "2 charts, 2 ms"
+  },
+  {
+   "name": "arms · mobile390 · light: renders",
+   "ok": true,
+   "detail": "4 charts, 1 ms"
+  },
+  {
+   "name": "seeds · mobile390 · light: renders",
+   "ok": true,
+   "detail": "4 charts, 1 ms"
+  },
+  {
+   "name": "training · mobile390 · light: renders",
+   "ok": true,
+   "detail": "6 charts, 30 ms"
+  },
+  {
+   "name": "validation · mobile390 · light: renders",
+   "ok": true,
+   "detail": "5 charts, 4 ms"
+  },
+  {
+   "name": "metrics · mobile390 · light: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "designs · mobile390 · light: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "maps · mobile390 · light: renders",
+   "ok": true,
+   "detail": "9 charts, 433 ms"
+  },
+  {
+   "name": "collapse · mobile390 · light: renders",
+   "ok": true,
+   "detail": "6 charts, 60 ms"
+  },
+  {
+   "name": "statistics · mobile390 · light: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "methods · mobile390 · light: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "provenance · mobile390 · light: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "overview · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "2 charts, 2 ms"
+  },
+  {
+   "name": "arms · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "4 charts, 2 ms"
+  },
+  {
+   "name": "seeds · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "4 charts, 2 ms"
+  },
+  {
+   "name": "training · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "6 charts, 35 ms"
+  },
+  {
+   "name": "validation · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "5 charts, 1 ms"
+  },
+  {
+   "name": "metrics · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "designs · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "maps · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "9 charts, 448 ms"
+  },
+  {
+   "name": "collapse · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "6 charts, 43 ms"
+  },
+  {
+   "name": "statistics · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "methods · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 3 ms"
+  },
+  {
+   "name": "provenance · mobile390 · dark: renders",
+   "ok": true,
+   "detail": "0 charts, 2 ms"
+  },
+  {
+   "name": "sidebar link → overview",
+   "ok": true,
+   "detail": "10 ms"
+  },
+  {
+   "name": "sidebar link → arms",
+   "ok": true,
+   "detail": "27 ms"
+  },
+  {
+   "name": "sidebar link → seeds",
+   "ok": true,
+   "detail": "38 ms"
+  },
+  {
+   "name": "sidebar link → training",
+   "ok": true,
+   "detail": "261 ms"
+  },
+  {
+   "name": "sidebar link → validation",
+   "ok": true,
+   "detail": "267 ms"
+  },
+  {
+   "name": "sidebar link → metrics",
+   "ok": true,
+   "detail": "272 ms"
+  },
+  {
+   "name": "sidebar link → designs",
+   "ok": true,
+   "detail": "34 ms"
+  },
+  {
+   "name": "sidebar link → maps",
+   "ok": true,
+   "detail": "423 ms"
+  },
+  {
+   "name": "sidebar link → collapse",
+   "ok": true,
+   "detail": "319 ms"
+  },
+  {
+   "name": "sidebar link → statistics",
+   "ok": true,
+   "detail": "4 ms"
+  },
+  {
+   "name": "sidebar link → methods",
+   "ok": true,
+   "detail": "266 ms"
+  },
+  {
+   "name": "sidebar link → provenance",
+   "ok": true,
+   "detail": "11 ms"
+  },
+  {
+   "name": "theme toggle",
+   "ok": true,
+   "detail": "light → dark"
+  },
+  {
+   "name": "maps: one option per validation graph",
+   "ok": true,
+   "detail": "12 graphs"
+  },
+  {
+   "name": "maps: 250-mgc_matrix_mult_a-util_0.85",
+   "ok": true,
+   "detail": "177 ms · mgc_matrix_mult_a · official validation design · grid 476 × 475 gcells (226,100 tiles)"
+  },
+  {
+   "name": "maps: 279-mgc_matrix_mult_a-util_0.9",
+   "ok": true,
+   "detail": "385 ms · mgc_matrix_mult_a · official validation design · grid 462 × 461 gcells (212,982 tiles)"
+  },
+  {
+   "name": "maps: 301-mgc_matrix_mult_a-util_0.9",
+   "ok": true,
+   "detail": "383 ms · mgc_matrix_mult_a · official validation design · grid 462 × 461 gcells (212,982 tiles)"
+  },
+  {
+   "name": "maps: 329-mgc_matrix_mult_a-util_0.75",
+   "ok": true,
+   "detail": "472 ms · mgc_matrix_mult_a · official validation design · grid 507 × 505 gcells (256,035 tiles)"
+  },
+  {
+   "name": "maps: 362-mgc_matrix_mult_a-util_0.7",
+   "ok": true,
+   "detail": "385 ms · mgc_matrix_mult_a · official validation design · grid 524 × 524 gcells (274,576 tiles)"
+  },
+  {
+   "name": "maps: 383-mgc_matrix_mult_a-util_0.75",
+   "ok": true,
+   "detail": "467 ms · mgc_matrix_mult_a · official validation design · grid 508 × 505 gcells (256,540 tiles)"
+  },
+  {
+   "name": "maps: 215-mgc_des_perf_a-util_0.75",
+   "ok": true,
+   "detail": "206 ms · mgc_des_perf_a · held-out sample of a training design · grid 293 × 293 gcells (85,849 tiles)"
+  },
+  {
+   "name": "maps: 204-mgc_edit_dist_a-util_0.7",
+   "ok": true,
+   "detail": "205 ms · mgc_edit_dist_a · held-out sample of a training design · grid 251 × 250 gcells (62,750 tiles)"
+  },
+  {
+   "name": "maps: 166-mgc_fft_a-util_0.75",
+   "ok": true,
+   "detail": "222 ms · mgc_fft_a · held-out sample of a training design · grid 265 × 265 gcells (70,225 tiles)"
+  },
+  {
+   "name": "maps: 315-mgc_matrix_mult_b-util_0.8",
+   "ok": true,
+   "detail": "341 ms · mgc_matrix_mult_b · held-out sample of a training design · grid 481 × 478 gcells (229,918 tiles)"
+  },
+  {
+   "name": "maps: 3-mgc_pci_bridge32_a-util_0.85",
+   "ok": true,
+   "detail": "175 ms · mgc_pci_bridge32_a · held-out sample of a training design · grid 105 × 103 gcells (10,815 tiles)"
+  },
+  {
+   "name": "maps: 50-mgc_pci_bridge32_b-util_0.9",
+   "ok": true,
+   "detail": "180 ms · mgc_pci_bridge32_b · held-out sample of a training design · grid 201 × 200 gcells (40,200 tiles)"
+  },
+  {
+   "name": "maps: seed 42",
+   "ok": true,
+   "detail": "3 ms"
+  },
+  {
+   "name": "maps: seed 43",
+   "ok": true,
+   "detail": "1 ms"
+  },
+  {
+   "name": "maps: seed 44",
+   "ok": true,
+   "detail": "6 ms"
+  },
+  {
+   "name": "maps: seed 45",
+   "ok": true,
+   "detail": "1 ms"
+  },
+  {
+   "name": "maps: seed 46",
+   "ok": true,
+   "detail": "1 ms"
+  },
+  {
+   "name": "maps: seed 47",
+   "ok": true,
+   "detail": "1 ms"
+  },
+  {
+   "name": "maps: per-panel scale shows its warning",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "maps: JS heap after visiting every graph and seed",
+   "ok": true,
+   "detail": "328 MB"
+  },
+  {
+   "name": "no browser errors during interactions",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "offline: no request left the local server",
+   "ok": true,
+   "detail": "1421 requests, all local"
+  }
+ ]
+}

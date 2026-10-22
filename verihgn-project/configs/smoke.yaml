@@ -1,0 +1,5 @@
+# Pipeline smoke test only (not a result): 3 epochs in total; the first session
+# stops after 2 so that notebook 05 can prove resume-from-Drive with the 3rd.
+training:
+  num_epochs: 3
+  max_epochs_this_session: 2

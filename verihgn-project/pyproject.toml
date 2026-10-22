@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verihgn-repro"
+version = "0.1.0"
+description = "Adapted reproduction of VeriHGN (KDD'26) on CircuitNet-ISPD15"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "torch-geometric>=2.4",
+    "numpy",
+    "scipy",
+    "pandas",
+    "pyyaml",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "real_data: needs real CircuitNet fixture files (set VERIHGN_FIXTURES)",
+]

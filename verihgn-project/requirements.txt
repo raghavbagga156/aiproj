@@ -1,0 +1,12 @@
+# Local development / CPU (Windows laptop). Install torch first from the CPU index:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.1
+torch-geometric>=2.4
+numpy
+scipy
+pandas
+pyyaml
+tqdm
+pytest
+# torch-scatter is optional: if no wheel matches your torch build, the package
+# installs a pure-torch shim (src/verihgn_repro/compat/torch_scatter_shim.py).

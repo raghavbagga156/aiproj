@@ -1,0 +1,35 @@
+# Primary configuration. Model/training values are copied from the official
+# third_party/VeriHGN/configs/ispd2015.yaml; experiment values are the approved
+# Phase 0 decisions (D1-D6). Every departure is listed in each run's config.yaml
+# under `deviations` (see src/verihgn_repro/config.py).
+experiment:
+  name: verihgn_ispd15
+  dataset_scope: official9          # D6: 9 designs / 383 samples (official code)
+  split: official_seed42            # D5: also run pair_aware
+  grid_features: paper_eq3          # D3: paper Eq. 3 (primary)
+  label_norm: per_dataset           # D4: paper; also run per_sample (official code)
+model:
+  hidden_dim: 128
+  num_layers: 3
+  cell_feat_dim: 13
+  net_feat_dim: 6
+  pin_feat_dim: 3
+  geom_feat_dim: 4
+  dropout: 0.15
+  use_checkpoint: true
+training:
+  num_epochs: 200
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  step_size: 50
+  gamma: 0.5
+  patience: 20
+  wmse_alpha: 10.0
+  lambda_var: 0.5
+  precision: fp16                   # official AMP; I-3 benchmark decides the recommended default
+  allow_tf32: false
+  seed: 42
+  keep_every: 10
+  keep_dataset_on_gpu: auto
+  compute_train_metrics: true
